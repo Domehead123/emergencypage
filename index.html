@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Southampton City Council</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" integrity="sha256-piqEf7Ap7CMps8krDQsSOTZgF+MU/0MPyPW2enj5I40=" crossorigin="anonymous" />
+      <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+   <header class="header-main">
+       <div class="container">
+       <div class="site-logo">
+           <img src="logo-whiteout-redesign.png" alt="Southampton City Council logo">
+    </div>
+    </div>
+
+    
+</header>
+   <div class="content-wrap">
+   <main>
+    <div class="container">
+        <div class="row">
+             <div class="col-sm-8">
+        <h1>Sorry, our website is down!</h1>
+        <div id="date"></div>
+        <p>We apologise for any inconvenience this causes. We're working to get to the site back up and running as soon as possible.</p>
+        <p>Fortunately, there are still many ways you can keep in touch with us:</p>
+        <ul>
+            <li>Use one of our <a href="https://southampton-self.achieveservice.com/MyServices" title="MySouthampton">online forms</a> - the easiest way to report an issue, sign up for council services or make a payment</li>
+            <li>Follow us on <a href="/https://twitter.com/southamptoncc" title="Twitter">Twitter</a> or <a href="https://www.facebook.com/SotonCC/" title="Facebook">Facebook</a></li>
+            <li>Call our switchboard, Monday to Friday 8:30am to 5pm (closed on Bank Holidays) on 023 8083 3000</li>
+            <li>For emergencies outside normal office hours, please phone 023 8023 3344</li>
+        </ul>
+        </div>
+                    <div class="col-sm-4 d-none d-sm-block">
+       <div class="warning"><i class="fas fa-wrench"></i>
+</div>
+            </div>
+           
+
+        
+        </div>
+    </div>
+<main>
+    </div>
+    <footer>  </footer>
+    <script>
+
+var d = new Date();
+
+var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+var thedate = days[d.getDay()] + " " + d.getDate() +  " " + months[d.getMonth()] + ", " + d.getHours() + ":" + d.getMinutes();
+
+
+document.getElementById("date").innerHTML = thedate;
+
+
+
+
+
+</script>
+    
+</body>
+</html>
